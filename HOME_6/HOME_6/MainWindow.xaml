@@ -1,0 +1,23 @@
+﻿<Window x:Class="Home5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Home5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,45,254">
+        <TextBlock HorizontalAlignment="Center" Height="18" Margin="0,26,0,0" Text="Vagon" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+        <Label x:Name="Lblnumb" Content="Номер вагона№" HorizontalAlignment="Left" Margin="42,88,0,0" VerticalAlignment="Top" Width="101"/>
+        <TextBox x:Name="Tb_numb" HorizontalAlignment="Left" Height="26" Margin="42,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101"/>
+        <Label x:Name="Lbl_bdst" Content="Кол-во спальных мест" HorizontalAlignment="Left" Margin="204,88,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label x:Name="Lbl_seat" Content="Кол-во общих мест" HorizontalAlignment="Left" Margin="400,83,0,0" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="Tb_bdst" HorizontalAlignment="Left" Height="26" Margin="248,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.324,0.671"/>
+        <Label x:Name="Lbl_seatsum" Content="Кол-во общих мест" HorizontalAlignment="Left" Margin="619,88,0,0" VerticalAlignment="Top" Width="138"/>
+        <TextBox x:Name="Tb_seatsum" HorizontalAlignment="Left" Height="26" Margin="663,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.324,0.671" />
+        <Button x:Name="Btn_save" Content="Save" HorizontalAlignment="Left" Height="26" Margin="539,119,0,0" VerticalAlignment="Top" Width="63"  Click="button_Click"/>
+        <TextBox x:Name="Tb_seat" HorizontalAlignment="Left" Height="26" Margin="444,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.324,0.671" />
+        <Label x:Name="Lbl_result" Content="Результат" HorizontalAlignment="Left" Height="29" Margin="383,49,0,0" VerticalAlignment="Top" Width="80" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
